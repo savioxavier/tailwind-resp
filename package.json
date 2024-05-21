@@ -1,6 +1,6 @@
 {
   "name": "tailwind-resp",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Dynamically handle responsive breakpoints in TailwindCSS classes",
   "exports": "./index.js",
   "type": "module",
