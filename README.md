@@ -10,11 +10,11 @@ Gone are the days where you would type the breakpoint for every TailwindCSS clas
 
 Instead of doing this...
 
-`'md:m-3 md:hover:bg-zinc-800 md:p-3 md:text-green-400 md:font-bold md:border-2 md:border-red-400 md:border-dotted md:rounded-md'`
+`'md:m-3 md:hover:bg-zinc-800 md:p-3 md:text-green-400 md:font-bold md:border-2 md:border-red-400'`
 
 you could just do:
 
-`'[resp:md] m-3 hover:bg-zinc-800 p-3 text-green-400 font-bold border-2 border-red-400 border-dotted rounded-md'`
+`'[resp:md] m-3 hover:bg-zinc-800 p-3 text-green-400 font-bold border-2 border-red-400'`
 
 This makes it easier to read, understand and maintain complex classes. It also supports multiple breakpoints and conditionally classes as well (see usage below)
 
