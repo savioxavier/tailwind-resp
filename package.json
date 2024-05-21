@@ -1,0 +1,33 @@
+{
+  "name": "tailwind-resp",
+  "version": "1.0.0",
+  "description": "Dynamically handle responsive breakpoints in TailwindCSS classes",
+  "exports": "./index.js",
+  "type": "module",
+  "keywords": [
+    "tailwind",
+    "clsx",
+    "classes",
+    "responsive"
+  ],
+  "repository": "savioxavier/tailwind-resp",
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "author": {
+    "name": "Savio Xavier",
+    "email": "savioxavier112@gmail.com",
+    "url": "https://github.com/savioxavier"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "engines": {
+    "node": ">=14.16"
+  }
+}
